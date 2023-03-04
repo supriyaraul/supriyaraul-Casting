@@ -1,3 +1,4 @@
+import static org.junit.Assert.assertThrows;
 
 public class CastingPrimitive {
     /**
@@ -16,6 +17,8 @@ public class CastingPrimitive {
      * @return the int form of d.
      */
     public int castToInt(double d){
-        return 0;
+       return (int) d;
+        //System.out.println(a);
+         
     }
-}
+} 
